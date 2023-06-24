@@ -46,6 +46,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#resume" // TODO change to <Link> later
+          onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Resume`, and if set to the active link class, otherwise, set to nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }
