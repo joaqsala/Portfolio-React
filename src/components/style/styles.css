@@ -11,7 +11,16 @@
     height: 100vh;
     min-height: 500px;
     background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    padding: 20px;
   }
