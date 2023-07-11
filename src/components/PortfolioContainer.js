@@ -10,33 +10,51 @@ import './style/styles.css';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
-    const handlePageChange = (page) => setCurrentPage(page);
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // const renderPage = () => {
+  //   if (currentPage === 'Home') {
+  //     return <Home />;
+  //   }
+  //   if (currentPage === 'About') {
+  //     return <About />;
+  //   }
+  //   if (currentPage === 'Portfolio') {
+  //       return <Portfolio />;
+  //     }
+  //   if (currentPage === 'Contact') {
+  //     return <Contact />;
+  //   }
+  //   return <Resume />;
+  // };
+
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
+      case 'Home':
         return <Home />;
-      case 'about':
+      case 'About':
         return <About />;
-      case 'contact':
+      case 'Contact':
         return <Contact />;
-      case 'portfolio':
+      case 'Portfolio':
         return <Portfolio />;
-      case 'resume':
+      case 'Resume':
         return <Resume />;
       default:
         return <Home />;
     }
   };
+  const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
         {/* Passing the currentPage from state and the function to update it */}
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Calling the renderPage method which will return a component  */}
+        <section class="masthead">
         {renderPage()}
         <Footer />
+        </section>
         </div>
       );
 };
