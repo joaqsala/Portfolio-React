@@ -1,6 +1,7 @@
 .nav-link,
 .nav-link.active {
   color: rgb(150, 148, 148);
+  font-weight: 500;
 }
 
 .logo{
