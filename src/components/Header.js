@@ -1,11 +1,10 @@
 import React from 'react';
-import './style/styles.css'
 
 // Use object destructuring to pluck off variables from the props object
 // Assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+    <nav className="navbar">
       <div className="container">
         <a className="navbar-brand logo" 
           href="#home"  // TODO: change to <Link> later

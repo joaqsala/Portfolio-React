@@ -6,7 +6,7 @@ import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
-import './style/styles.css';
+import NotFound from '../pages/NotFound';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -41,7 +41,7 @@ export default function PortfolioContainer() {
       case 'Resume':
         return <Resume />;
       default:
-        return <Home />;
+        return <NotFound />;
     }
   };
   
@@ -52,10 +52,8 @@ export default function PortfolioContainer() {
         {/* Passing the currentPage from state and the function to update it */}
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Calling the renderPage method which will return a component  */}
-        <section class="masthead">
           {renderPage()}
           <Footer />
-        </section>
         </div>
       );
 };
