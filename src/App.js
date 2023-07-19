@@ -1,8 +1,8 @@
 import React from 'react';
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./pages/layout";
-import PortfolioContainer from './components/PortfolioContainer';
+import Layout from './pages/layout';
+// import PortfolioContainer from './components/PortfolioContainer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
@@ -15,10 +15,9 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route index element={<PortfolioContainer />} />
+                    <Route index element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact/>} />
-                    <Route path="/home" element={<Home />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="resume" element={<Resume />} />
                     <Route path="*" element={<NotFound />} />
