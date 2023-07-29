@@ -10,13 +10,13 @@ function Footer() {
                     className=""
                     target="_blank"
                     rel="noopener noreferrer">
-                    <FaLinkedin className="text-5xl mx-8"/>
+                    <FaLinkedin className="text-4xl mx-8"/>
                 </a>
                 <a href="https://github.com/joaqsala"
                     className=""
                     target="_blank"
                     rel="noopener noreferrer">
-                    <FaGithub className="text-5xl mx-8"/>
+                    <FaGithub className="text-4xl mx-8"/>
                 </a>
             </div>
         </div>
