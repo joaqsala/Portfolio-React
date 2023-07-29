@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Additional custom styles for the header */
+.header {
+  /* Add your desired styling for the header, e.g., padding, border, etc. */
+  padding: 1rem;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+/* Add styles for the navigation links */
+.nav-links {
+  /* Add your desired styling for the navigation links */
+}
+
+/* Add styles for the active link */
+.active {
+  /* Add your desired styling for the active link here */
+  color: rgb(118, 104, 148); /* For example, change the text color to blue */
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+  /* Add any other styles you want to apply to the active link */
+}
+
