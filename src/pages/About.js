@@ -1,17 +1,16 @@
 import React from 'react';
 import circleImage from "../assets/JoaqSala-profile-img.png"
 
-//TODO write about self
 export default function About() {
     return (
         <div >
             <h1 className="text-2xl mb-10">About me</h1>
             <div className="h-48 w-48 rounded-md overflow-hidden mb-10">
-            <img src={circleImage} alt="Circle Image" />
+            <img src={circleImage} alt="Joaquin Salazar" />
             </div>
-            <div class="row h-100 align-items-center">
+            <div class="row align-items-center">
                 <p>
-                    Ny name is Joaquin. I'm a mathematics content specialist transitioning into the world of programming.
+                    My name is Joaquin. I'm a mathematics content specialist transitioning into the world of programming.
 
                     I recently completed an intensive coding bootcamp through the University of Texas at Austin where I acquired a diverse skill set in programming languages and methodologies.</p><br />
 

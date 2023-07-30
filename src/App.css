@@ -24,3 +24,8 @@
   /* Add any other styles you want to apply to the active link */
 }
 
+/* styles for hover on footer icons */
+.icon-link:hover {
+  color: #4f4fd4
+}
+
