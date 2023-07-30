@@ -17,7 +17,7 @@
 /* Add styles for the active link */
 .active {
   /* Add your desired styling for the active link here */
-  color: rgb(118, 104, 148); /* For example, change the text color to blue */
+  color: #4f4fd4; /* For example, change the text color to blue */
   font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 0.6em;
@@ -77,9 +77,17 @@
   margin-bottom: 8px;
 }
 
+.project-title:hover {
+  color: #4f4fd4
+}
+
 .github-icon {
   font-size: 24px;
   margin-bottom: 8px;
+}
+
+.github-icon:hover {
+  color: #4f4fd4
 }
 
 .project-description {
