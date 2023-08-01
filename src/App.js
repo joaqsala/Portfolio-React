@@ -8,11 +8,11 @@ import Contact from './pages/Contact';
 // import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import NotFound from './pages/NotFound';
+// import NotFound from './pages/NotFound';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Portfolio-React">
             <Routes>
                 <Route path="/" element={<Layout />}>
                     {/* <Route index element={<Home />} /> */}
@@ -21,7 +21,7 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/resume" element={<Resume />} />
                 </Route>
-                <Route path="*" element={<NotFound />} />
+                {/* <Route path="*" element={<NotFound />} /> */}
             </Routes>
         </BrowserRouter>
     );
