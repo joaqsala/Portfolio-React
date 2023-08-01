@@ -8,27 +8,31 @@ export default function Contact() {
     const [nameError, setNameError] = useState("");
     const [emailError, setEmailError] = useState("");
     const [messageError, setMessageError] = useState("");
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     const handleBlurName = () => {
         if (visitorName.trim() ===""){
             setNameError("Name cannot be left blank.");
         } else {
             setNameError("");
-        };
-    }
+        }
+    };
 
     const handleBlurEmail = () => {
         if (visitorEmail.trim() === "") {
             setEmailError("Email cannot be left blank.");
+        } else if (!emailRegex.test(visitorEmail)) {
+            setEmailError("Invalid email format.")
         } else {
             setEmailError("");
-        };
-    }
+        }
+    };
 
     const handleBlurMessage = () => {
         if (visitorMessage.trim() === "") {
             setMessageError("Message cannot be left blank.");
         } else {
+
             setMessageError("");
         }
     };
@@ -37,17 +41,17 @@ export default function Contact() {
         e.preventDefault();
 
         if (visitorName && visitorEmail && visitorMessage) {
-            alert("Message sent!")
+            alert(`Cannot send at this time. \nPlease message directly at joaqsala@gmail.com.`)
             setVisitorName("");
             setVisitorEmail("");
             setVisitorMessage("");
         } else {
-            alert("Error sending message.")
+            alert("Please complete the form before sending.")
         }
     };
 
     return (
-        <div>
+        <div className="flex flex-col items-center">
             <h1 className="text-2xl mb-10">Contact Page</h1>
             <section className="py-6 bg-gray-800 text-gray-50">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">

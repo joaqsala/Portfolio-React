@@ -4,9 +4,11 @@ import circleImage from "../assets/JoaqSala-profile-img.png"
 export default function About() {
     return (
         <>
+        <div className="flex flex-col items-center">
             <h1 className="text-2xl mb-10">About me</h1>
             <div className="h-48 w-48 rounded-md overflow-hidden mb-10">
                 <img src={circleImage} alt="Joaquin Salazar" />
+            </div>
             </div>
             <div class="row align-items-center">
                 <p>
