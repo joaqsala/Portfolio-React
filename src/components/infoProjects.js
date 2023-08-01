@@ -6,14 +6,14 @@ import techBlogImage from "../assets/screenshot-blog-page.png";
 import toastToWeatherImage from "../assets/Screenshot-toast-to-the-weather.png"
 
 const projectInfo = [
-    // {
-    //     img: shortStackImage,
-    //     title: "Short Stack",
-    //     description: "Group Proj #3: React Firebase"
+    {
+        img: shortStackImage,
+        title: "Short Stack",
+        description: "Group Proj #3: React Firebase",
     // "Short Stack is a Firebase-React app intended to created a dedicated social platform that caters exclusively to developers with content created by them.",
-    //     githubLink:
-    //     websiteLink:
-    // }, 
+        githubLink: "https://github.com/KodaCaleb/ShortStack",
+        websiteLink: "https://shortstack.vercel.app/",
+    }, 
     {
         img: bookNBorrowImage, 
         title: "Book'n Borrow",

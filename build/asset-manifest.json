@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/joaqsala.github.io/Portfolio-React/static/css/main.bd62ca00.css",
+    "main.js": "/joaqsala.github.io/Portfolio-React/static/js/main.1dfd1f18.js",
+    "static/media/JoaqSala-profile-img.png": "/joaqsala.github.io/Portfolio-React/static/media/JoaqSala-profile-img.08f0bee84dd5730118bc.png",
+    "static/media/screenshot-blog-page.png": "/joaqsala.github.io/Portfolio-React/static/media/screenshot-blog-page.2b6a8d2e27c1c8af809e.png",
+    "static/media/screenshot-book-n-borrow.png": "/joaqsala.github.io/Portfolio-React/static/media/screenshot-book-n-borrow.2048faa3d8144a9b742b.png",
+    "static/media/Screenshot-toast-to-the-weather.png": "/joaqsala.github.io/Portfolio-React/static/media/Screenshot-toast-to-the-weather.8b5ba5944e3b24a12752.png",
+    "static/media/Screenshot_short_stack_homepage.png": "/joaqsala.github.io/Portfolio-React/static/media/Screenshot_short_stack_homepage.c0ece3dc9e0ffc389582.png",
+    "static/media/Screenshot-googlebooks-search-result.png": "/joaqsala.github.io/Portfolio-React/static/media/Screenshot-googlebooks-search-result.ab6c7b3251c060440339.png",
+    "static/media/Screenshot-weather-app.png": "/joaqsala.github.io/Portfolio-React/static/media/Screenshot-weather-app.757e709eaffbaec5c136.png",
+    "index.html": "/joaqsala.github.io/Portfolio-React/index.html",
+    "main.bd62ca00.css.map": "/joaqsala.github.io/Portfolio-React/static/css/main.bd62ca00.css.map",
+    "main.1dfd1f18.js.map": "/joaqsala.github.io/Portfolio-React/static/js/main.1dfd1f18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd62ca00.css",
+    "static/js/main.1dfd1f18.js"
+  ]
+}

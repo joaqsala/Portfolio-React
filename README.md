@@ -9,7 +9,6 @@
 
   ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contribution)
@@ -17,16 +16,11 @@
 - [Questions](#questions)
 
 
-## Installation
-
-
-
-
 ## Usage 
 
 Please enjoy my first react portfolio utilizing tailwind.
 
-![Readme generator prompts](./assets/screenshot-portfolio-homepage.png)
+![Portfolio homepage](./assets/screenshot-portfolio-homepage.png)
 
 
 
