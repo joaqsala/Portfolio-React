@@ -33,7 +33,7 @@ const projectInfo = [
     {
         img: weatherDashboardImage, 
         title: "Weather Dashboard",
-        description: "Real-time weather app",
+        description: "Real-time weather API app",
         // "This Weather Dashboard app built with Javascript and Bootstrap makes calls to the OpenWeatherMap API to display the weather based on the zip code.",
         githubLink: "https://github.com/joaqsala/WeatherDashboard",
         websiteLink: "https://joaqsala.github.io/WeatherDashboard/",

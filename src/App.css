@@ -15,7 +15,7 @@
 }
 
 /* Add styles for the active link */
-.active {
+.nav-link.active {
   /* Add your desired styling for the active link here */
   color: #4f4fd4; /* For example, change the text color to blue */
   font-weight: bold;

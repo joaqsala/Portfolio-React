@@ -10,7 +10,7 @@ export default function About() {
                 <img src={circleImage} alt="Joaquin Salazar" />
             </div>
             </div>
-            <div class="row align-items-center">
+            <div className="row align-items-center">
                 <p>
                     My name is Joaquin. I'm a mathematics content specialist transitioning into the world of programming.
 
