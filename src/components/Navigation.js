@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-      <ul className="flex space-x-10 mr-5">
+      <ul className="flex space-x-10 mr-5 pt-4 ">
         <li>
           <NavLink to="/" className="nav-link">
             About

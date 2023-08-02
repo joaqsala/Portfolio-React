@@ -4,12 +4,12 @@ import Navigation from '../components/Navigation';
 function Header() {
 
   return (
-    <nav className="header h-12 m-5 flex items-center">
-      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
-        <div className="logo text-3xl ml-5 mb-2 sm:mb-0">
+    <nav className="header sm:h-18 md:h-12 m-3 flex flex-col md:flex-row items-center justify-between">
+      {/* <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center"> */}
+        <div className="logo-container text-3xl md:ml-5 sm:items-center">
           JOAQUIN SALAZAR
         </div>
-      </div>
+      {/* </div> */}
       <Navigation />
     </nav>
   );
