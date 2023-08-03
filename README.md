@@ -22,7 +22,7 @@ Please enjoy my first react portfolio utilizing tailwind.
 
 ![Portfolio homepage](./assets/screenshot-portfolio-homepage.png)
 
-
+https://joaqsala.github.io/Portfolio-React/
 
 
 ## License
