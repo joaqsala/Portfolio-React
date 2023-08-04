@@ -51,7 +51,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="flex flex-col items-center">
+        <main className="flex flex-col items-center">
             <h1 className="text-2xl mb-10">Contact Page</h1>
             <section className="py-6 bg-gray-800 text-gray-50">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -101,6 +101,6 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
-        </div>
+        </main>
     )
 }

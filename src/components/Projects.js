@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects({ project }) {
     return (
-        <div className="project-card">
+        <article className="project-card">
             <img src={project.img} alt={project.title} className="project-image" />
             <div className="project-details">
                 <a href={project.websiteLink} target="_blank" rel="noopener noreferrer">
@@ -14,6 +14,6 @@ export default function Projects({ project }) {
                 </a>
                 <p className="project-description">{project.description}</p>
             </div>
-        </div>
+        </article>
     );
 }

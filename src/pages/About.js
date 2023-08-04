@@ -3,7 +3,7 @@ import circleImage from "../assets/JoaqSala-profile-img.png"
 
 export default function About() {
     return (
-        <>
+        <main>
         <div className="flex flex-col items-center">
             <h1 className="text-2xl mb-10">About me</h1>
             <div className="h-48 w-48 rounded-md overflow-hidden mb-10">
@@ -20,6 +20,6 @@ export default function About() {
 
                     Let's connect and discuss how we can make a positive impact together.</p>
             </div>
-        </>
+        </main>
     );
 }

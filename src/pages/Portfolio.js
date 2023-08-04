@@ -6,7 +6,7 @@ import Projects from '../components/Projects';
 // TODO: Need to add projects/layouts for Portfolio
 export default function Portfolio() {
     return (
-        <>
+        <main>
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mb-6">Portfolio</h1>
 
@@ -20,6 +20,6 @@ export default function Portfolio() {
                     ))}
                 </div>
             </div>
-        </>
+        </main>
     );
 }

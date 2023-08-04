@@ -4,7 +4,7 @@ export default function Resume() {
 
     const resumePath = process.env.PUBLIC_URL + "/Joaqsala-portfolio-resume.pdf"
     return (
-        <>
+        <main>
             <div className="flex flex-col items-center">
                 <h1 className="text-2xl mb-10">Resume</h1>
                 <div className="mt-6 flex flex-col md:flex-row md:space-x-24 w-full md:w-3/4 lg:w-1/2">
@@ -42,6 +42,6 @@ export default function Resume() {
             <div>
                 <p className="text-sm mt-16 ml-16">Download my <a href={resumePath} download className="font-bold">resume</a>.</p>
             </div>
-        </>
+        </main>
     );
 }

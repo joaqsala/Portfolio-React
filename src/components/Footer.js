@@ -1,10 +1,9 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-// TODO: Add emoji's for Twitter (also, start twitter account)
 function Footer() {
     return (
-        <div className="bg-gradient-to-r from-slate-300 to-slate-400 p-6">
+        <footer className="bg-gradient-to-r from-slate-300 to-slate-400 p-6">
             <div className="flex justify-center space-x-10">
                 <a href="https://www.linkedin.com/in/joaqsala/"
                     className="icon-link"
@@ -19,7 +18,7 @@ function Footer() {
                     <FaGithub className="text-4xl mx-8"/>
                 </a>
             </div>
-        </div>
+        </footer>
     );
 }
 
