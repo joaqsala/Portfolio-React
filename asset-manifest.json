@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.acc8677e.css",
-    "main.js": "/Portfolio-React/static/js/main.6bbfd461.js",
+    "main.css": "/Portfolio-React/static/css/main.d2d27572.css",
+    "main.js": "/Portfolio-React/static/js/main.a5ec5bb9.js",
     "static/media/JoaqSala-profile-img.png": "/Portfolio-React/static/media/JoaqSala-profile-img.08f0bee84dd5730118bc.png",
     "static/media/screenshot-blog-page.png": "/Portfolio-React/static/media/screenshot-blog-page.2b6a8d2e27c1c8af809e.png",
     "static/media/screenshot-book-n-borrow.png": "/Portfolio-React/static/media/screenshot-book-n-borrow.2048faa3d8144a9b742b.png",
@@ -10,11 +10,11 @@
     "static/media/Screenshot-googlebooks-search-result.png": "/Portfolio-React/static/media/Screenshot-googlebooks-search-result.ab6c7b3251c060440339.png",
     "static/media/Screenshot-weather-app.png": "/Portfolio-React/static/media/Screenshot-weather-app.757e709eaffbaec5c136.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.acc8677e.css.map": "/Portfolio-React/static/css/main.acc8677e.css.map",
-    "main.6bbfd461.js.map": "/Portfolio-React/static/js/main.6bbfd461.js.map"
+    "main.d2d27572.css.map": "/Portfolio-React/static/css/main.d2d27572.css.map",
+    "main.a5ec5bb9.js.map": "/Portfolio-React/static/js/main.a5ec5bb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.acc8677e.css",
-    "static/js/main.6bbfd461.js"
+    "static/css/main.d2d27572.css",
+    "static/js/main.a5ec5bb9.js"
   ]
 }
