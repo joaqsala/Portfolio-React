@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaHtml5, FaCss3, FaJs, FaBootstrap, FaReact, FaNodeJs,  } from "react-icons/fa";
+import { SiJquery, SiTailwindcss, SiExpress, SiMysql, SiSequelize, SiMongodb, SiMongoose, SiApollographql, SiGraphql } from "react-icons/si";
 
 export default function Resume() {
 
@@ -35,6 +37,7 @@ export default function Resume() {
                             <li>MongoDB</li>
                             <li>Mongoose</li>
                             <li>GraphQL</li>
+                            <li>Apollo Graphql</li>
                         </ul>
                     </div>
                 </div>

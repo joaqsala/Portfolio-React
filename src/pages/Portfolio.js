@@ -3,7 +3,6 @@ import projectInfo from "../components/infoProjects"
 import Projects from '../components/Projects';
 
 
-// TODO: Need to add projects/layouts for Portfolio
 export default function Portfolio() {
     return (
         <main>

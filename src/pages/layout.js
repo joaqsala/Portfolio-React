@@ -9,7 +9,7 @@ export default function Layout() {
             <div className="flex flex-col min-h-screen">
                 <Header />
                 <div className="bg-gradient-to-r from-slate-200 to-slate-400 flex-grow">
-                    <div className="px-3 md:px-6 lg:px-10 xl:px-15 py-4 mx-auto max-w-screen-xl md:min-h-screen">
+                    <div className="px-3 md:px-6 lg:px-10 xl:px-15 py-4 mx-auto max-w-screen-xl ">
                         <Outlet />
                     </div>
                     <Footer />
