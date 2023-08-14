@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Footer() {
     return (
-        <footer className="bg-gradient-to-r from-slate-300 to-slate-400 p-6">
+        <footer className="bg-gradient-to-r from-slate-300 to-slate-400 mt-auto p-6">
             <div className="flex justify-center space-x-10">
                 <a href="https://www.linkedin.com/in/joaqsala/"
                     className="icon-link"
