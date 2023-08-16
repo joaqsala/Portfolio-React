@@ -7,7 +7,7 @@ export default function Portfolio() {
     return (
         <main>
             <div className="flex flex-col items-center">
-                <h1 className="text-2xl mb-6">Portfolio</h1>
+                <h1 className="text-2xl mb-4">Portfolio</h1>
 
                 <div className="grid grid-cols-1 md:grid-cols-2">
                     {projectInfo.map((project, index) => (
